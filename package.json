@@ -1,0 +1,30 @@
+{
+  "name": "hackathon_team27",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unidthon/Hackathon_team27.git"
+  },
+  "author": "team27",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Unidthon/Hackathon_team27/issues"
+  },
+  "homepage": "https://github.com/Unidthon/Hackathon_team27#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3-rc.0",
+    "sequelize": "^6.9.0",
+    "sequelize-cli": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
