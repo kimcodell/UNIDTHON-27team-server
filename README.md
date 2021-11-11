@@ -203,8 +203,14 @@ visit_id와 user_id 안 넘긴 경우(에러) - "visit_id와 user_id를 입력�
 
 
 ## 실행 
+로컬에서 npm i로 패키지들을 모두 설치해주세요.
+
 로컬에 .env파일을 생성한 뒤 "DB_PASSWORD=비밀번호"를 추가해주세요.
 
-mysql을 실행 /sql/init.sql 을 source 명령어로 실행시켜 데이터를 추가해주세요.
+로컬에서 MySQL을 실행하고 database-development 스키마를 생성해주세요.
+
+생성한 스키마를 선택한 후 source 파일경로/sql/init.sql 를 실행시켜 데이터를 추가해주세요.
 
 터미널에서 npm start로 서버를 실행시켜주세요.
+
+이제 API 요청을 테스트할 수 있습니다.
